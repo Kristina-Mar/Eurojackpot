@@ -1,1 +1,1 @@
-# Eurojackpot
+# Eurojackpot: C# generator of Eurojackpot numbers :)
