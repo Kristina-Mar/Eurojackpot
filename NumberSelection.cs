@@ -34,7 +34,7 @@ namespace Eurojackpot
                 newNumber = randomNumberGenerator.Next(1, 13);
                 while (TwoNumbers.Contains(newNumber)) // To avoid duplicates.
                 {
-                    newNumber = randomNumberGenerator.Next(13);
+                    newNumber = randomNumberGenerator.Next(1, 13);
                 }
                 TwoNumbers[i] = newNumber;
                 newNumber = 0;
